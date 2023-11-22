@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+img {
+    width: 125px;
+    height: 125px;
+    border-radius: 100%;
+}
+
+
+.breakpoint {
+    width: 4px;
+    height: 85px;
+    background-color: #4E98DC;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    transition: .3s;
+}
+
+.breakpoint:hover {
+    height: 100px;
+}
+
+h1 {
+    font-family: 'Sen', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #111;
+}
+
+p {
+    font-family: 'Sen', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    color: #222;
+}
+
+nav {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    user-select: none;
+    
+}
+
+button {
+    width: 200px;
+    height: 200px;
+    border: 0;
+    margin: 20px;
+    
+}
+
+a button{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Sen', sans-serif;
+    transition: .3s;
+}
+
+a button:hover {
+    margin-left: 5px;
+}
+
+
+.o-mnie {
+    background-color: #374266; 
+}
+
+.oferta {
+    background-color: #9DB0F2;
+}
+
+.cennik {
+    background-color: #0E1B46;
+}
+
+.kontakt {
+    background-color: #4E98DC;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+footer p {
+    color: #222;
+    font-family: 'Sen', sans-serif;
+}
